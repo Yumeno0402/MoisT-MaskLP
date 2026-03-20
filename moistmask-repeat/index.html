@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moist Mask</title>
+  <meta name="description" content="Moist Maskの公式サイト。肌に優しい保湿マスクで、乾燥から肌を守ります。" />
+
+  <!-- ✅ このページ配下（/moistmask/）を基準に相対パスを解決 -->
+  <base href="./" />
+
+  <!-- リセットCSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+  <!-- Googleフォント CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- ✅ CSS（/ ではなく ./ で /moistmask/css を参照） -->
+<link rel="stylesheet" href="./css/style.css">
+
+  <!-- OGP -->
+  <meta property="og:title" content="Moist Mask" />
+  <meta property="og:description" content="肌に優しい保湿マスクで、乾燥から肌を守ります。" />
+  <meta property="og:image" content="https://hifukacosme.com/img/mmogp.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://hifukacosme.com/moistmask/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://hifukacosme.com/img/mmogp.jpeg" />
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <a href="#top" class="header__logo-link">
+          <img src="./img/logo1.png" alt="Moist Mask" class="header__logo-img" />
+        </a>
+      </div>
+
+      <div class="header__button">
+        <a
+          href="https://tanimurahifuka.stores.jp/items/6939058dddb4229cec33f20a"
+          class="header__button-link"
+        >
+          継続ケアを購入する
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./img/moistmasklpsp1.jpg" />
+          <img src="./img/mmhero.jpg" alt="Moist Maskのイメージ" class="hero__bg-image" />
+        </picture>
+      </div>
+
+      <div class="hero__container">
+        <div class="hero__content">
+          <div class="hero__text-content">
+            <h1 class="hero__title">これが<br />満ちるうるおい</h1>
+            <p class="hero__description">
+              肌の調子をそっと支えるケア<br />頑張らなくても、<br />しっとりした状態が続く毎日へ
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="thanks">
+      <div class="thanks__bg">
+        <picture>
+          <source media="(max-width: 767px)" srcset="./img/thanksback-13.jpg" />
+          <img src="./img/thanksback-12.jpg" alt="" class="thanks__bg-image" loading="lazy" />
+        </picture>
+      </div>
+      <div class="thanks__container">
+        <span class="thanks__line" aria-hidden="true"></span>
+        <h2 class="thanks__title">ご購入ありがとうございます。</h2>
+        <p class="thanks__text">
+          実際にお使いいただいて、いかがでしたか。<br />
+          うるおいを感じた瞬間や、肌が落ち着く感覚を<br />
+          少しでも実感していただけていれば嬉しく思います。<br />
+          肌は日々の積み重ねで、少しずつ変わっていきます。<br />
+          無理なく続けられるケアが、<br class="sp-only" />安定した肌状態へとつながっていきます。
+        </p>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about__bg">
+        <img src="./img/mm1.jpeg" alt="肌を考える写真" class="about__bg-image" loading="lazy" />
+      </div>
+
+      <div class="about__container">
+        <div class="about__content">
+          <div class="about__text">
+            <h2 class="about__title">肌の変化と向き合う<br />毎日の中で生まれたマスク</h2>
+            <p class="about__description">
+              肌の調子は、季節や生活リズムによって<br />日々少しずつ変わっていきます。<br />
+              そんな変化に無理に抗うのではなく、<br />その時々の肌に寄り添うケアを<br />大切にしたいと考えました。
+            </p>
+          </div>
+          <div class="about__media"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="repeat">
+      <div class="repeat__container">
+        <h2 class="repeat__title">続けることで、整っていく肌。</h2>
+        <p class="repeat__description">
+          肌は一度のケアで大きく変わるものではなく、<br />
+          日々の積み重ねによって、少しずつ整っていきます。<br />
+          無理なく続けられるケアが、安定した肌状態へとつながります。
+        </p>
+
+        <div class="repeat__cards">
+          <article class="repeat__card">
+            <span class="repeat__badge repeat__badge--light">1日</span>
+            <div class="repeat__card-inner">
+              <div class="repeat__icon">
+                <img src="./img/repeaticon-14.png" alt="" class="repeat__icon-img" loading="lazy" />
+              </div>
+              <h3 class="repeat__card-title">一時的なうるおい補給</h3>
+              <p class="repeat__card-text">
+                乾燥が気になるときに、<br />肌へうるおいを与え、<br />なめらかな状態へと整えます。
+              </p>
+            </div>
+          </article>
+
+          <article class="repeat__card">
+            <span class="repeat__badge repeat__badge--mid">数日</span>
+            <div class="repeat__card-inner">
+              <div class="repeat__icon">
+                <img src="./img/repeaticon-15.png" alt="" class="repeat__icon-img" loading="lazy" />
+              </div>
+              <h3 class="repeat__card-title">うるおいが定着し始める</h3>
+              <p class="repeat__card-text">
+                肌の水分バランスが整い、<br />コンディションの安定を<br />感じやすくなります。
+              </p>
+            </div>
+          </article>
+
+          <article class="repeat__card">
+            <span class="repeat__badge repeat__badge--dark">継続</span>
+            <div class="repeat__card-inner">
+              <div class="repeat__icon">
+                <img src="./img/repeaticon-16.png" alt="" class="repeat__icon-img" loading="lazy" />
+              </div>
+              <h3 class="repeat__card-title">ゆらぎにくい安定した肌へ</h3>
+              <p class="repeat__card-text">
+                日々の積み重ねによって、乾燥や<br />外的刺激に負けにくい、<br />健やかな肌状態へと導きます。
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="repeat__visual">
+        <p class="repeat__lead-text">
+          続けることで、肌は少しずつ整っていきます。<br />
+          毎日使うものだからこそ、肌へのやさしさにこだわりました。
+        </p>
+        <div class="repeat__visual-media">
+          <img src="./img/osusumemask.jpg" alt="" class="repeat__visual-img" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="delicate">
+      <div class="delicate__container">
+        <div class="delicate__header">
+          <span class="delicate__header-line delicate__header-line--top" aria-hidden="true"></span>
+          <h2 class="delicate__header-title">美容施術後のケアにも</h2>
+          <span class="delicate__header-line delicate__header-line--bottom" aria-hidden="true"></span>
+        </div>
+
+        <div class="delicate__upper">
+          <div class="delicate__upper-content">
+            <div class="delicate__text-block">
+              <h3 class="delicate__subtitle">美容施術後、<br />肌がゆらぎやすいと感じる時にも。</h3>
+
+              <ul class="delicate__checklist">
+                <li class="delicate__checklist-item">施術後の水分保持力低下による乾燥</li>
+                <li class="delicate__checklist-item">普段のスキンケアでも刺激を感じやすい肌</li>
+                <li class="delicate__checklist-item">施術による一時的なあかみやほてり</li>
+                <li class="delicate__checklist-item">外部刺激を受けやすい不安定な肌状態</li>
+              </ul>
+            </div>
+
+            <figure class="delicate__woman-illust">
+              <img src="./img/moistmask素材-09.png" alt="" class="delicate__woman-img" loading="lazy" />
+            </figure>
+          </div>
+
+          <div class="delicate__upper-gradient" aria-hidden="true"></div>
+        </div>
+
+        <div class="delicate__lower">
+          <h3 class="delicate__lower-title">美容皮膚科の視点で作られた<br>フェイスマスク</h3>
+
+          <div class="delicate__lower-content">
+            <figure class="delicate__product">
+              <img src="./img/moistmask素材33-010.png" alt="Moist Mask製品画像" class="delicate__product-img" loading="lazy" />
+            </figure>
+
+            <div class="delicate__description">
+              <h4 class="delicate__description-title">
+                ゆらぐ時期の肌に、<br />やさしいうるおいケアを。
+              </h4>
+              <p class="delicate__description-text">
+                美容施術後の肌は、<br />
+                乾燥・刺激・赤みなどが起こりやすく、<br />
+                いつもよりデリケートな状態。<br /><br />
+                そんな時期の肌にも速く寄り添えるよう、<br />
+                やさしい使い心地とうるおいにこだわった<br />
+                フェイスマスクです。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="voice" aria-labelledby="voice-title">
+      <div class="voice__container">
+        <h2 class="voice__title" id="voice-title">
+          <span class="voice__line voice__line--top" aria-hidden="true"></span>
+          利用者の声
+          <span class="voice__line voice__line--bottom" aria-hidden="true"></span>
+        </h2>
+
+        <p class="voice__subtitle">Moist Maskをご利用いただいた方の声です。</p>
+
+        <div class="voice__slider" data-voice-slider>
+          <button class="voice__nav voice__nav--prev" type="button" aria-label="前へ" data-voice-prev>‹</button>
+
+          <div class="voice__viewport" data-voice-viewport>
+            <div class="voice__track" data-voice-track>
+              <article class="voice__card voice__card--gold" data-voice-card>
+                <h3 class="voice__card-title">続けたくなる、<br />朝のうるおい習慣</h3>
+                <p class="voice__card-text">
+                  モイストマスクを朝のケアに取り入れるようになってから、乾燥しやすくても
+                  しっとり感が長く続くように感じています。忙しい朝の時短にもなって助かっています。
+                  日中もうるおいが感じられるので、今では手放せないアイテムです。
+                </p>
+                <p class="voice__card-meta">30代 女性</p>
+                <div class="voice__avatar"><img src="./img/riyousyapng-02.png" alt="" loading="lazy" /></div>
+              </article>
+
+              <article class="voice__card voice__card--blue" data-voice-card>
+                <h3 class="voice__card-title">翌朝のしっとり感が<br />うれしい</h3>
+                <p class="voice__card-text">
+                  乾燥が気になる時は、数日続けて使うこともあります。 前日の夜に使うと、翌朝「あ、しっとりしてるかも」と感じられるのがうれしいです。
+                  なんとなく肌が明るく見える気がする日もあって、鏡を見るのが少し楽しみになりました。
+                  シートマスクなのでパッと使えてラクですし、美容液がたっぷり入っているので、首やデコルテ、乾燥が気になる部分にもなじませています。
+                </p>
+                <p class="voice__card-meta">60代 女性</p>
+                <div class="voice__avatar"><img src="./img/riyousyapng-03.png" alt="" loading="lazy" /></div>
+              </article>
+
+              <article class="voice__card voice__card--gold" data-voice-card>
+                <h3 class="voice__card-title">刺激感が少なくて<br />安心して使えました</h3>
+                <p class="voice__card-text">
+                  ゆらぎやすい時期でも使いやすく、肌当たりがやさしいのが嬉しいです。
+                  しっとりするのに重たく感じにくいので、夜のケアにも取り入れています。
+                  "守られている感じ"があって安心感があります。
+                </p>
+                <p class="voice__card-meta">50代 女性</p>
+                <div class="voice__avatar"><img src="./img/riyousyapng-04.png" alt="" loading="lazy" /></div>
+              </article>
+
+              <article class="voice__card voice__card--blue" data-voice-card>
+                <h3 class="voice__card-title">忙しい日でも<br />手軽に保湿できる</h3>
+                <p class="voice__card-text">
+                  疲れて帰った日でも、これだけは使いたいと思える手軽さです。
+                  シートが美容液をしっかり含んでいて、使用後のうるおい感が心地よいです。
+                  首や手にもなじませて最後まで使っています。
+                </p>
+                <p class="voice__card-meta">40代 女性</p>
+                <div class="voice__avatar"><img src="./img/riyousyapng-05.png" alt="" loading="lazy" /></div>
+              </article>
+            </div>
+          </div>
+
+          <button class="voice__nav voice__nav--next" type="button" aria-label="次へ" data-voice-next>›</button>
+          <div class="voice__dots" aria-label="スライド切り替え" data-voice-dots></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" data-cta-parallax>
+      <div class="cta__button">
+        <a href="https://tanimurahifuka.stores.jp/items/6939058dddb4229cec33f20a" class="header__button-link">継続ケアを購入する</a>
+      </div>
+    </section>
+
+    <section class="uruoi">
+      <div class="uruoi__container">
+        <div class="uruoi__image"></div>
+      </div>
+    </section>
+
+    <section class="item">
+      <div class="item__background" aria-hidden="true"></div>
+
+      <div class="item__container">
+        <div class="item__cards">
+          <article class="item__card">
+            <div class="item__card-inner">
+              <p class="item__card-subtitle">セラミド <span class="item__note-mark">※1</span></p>
+              <img src="./img/seibun1.jpg" alt="セラミド" class="item__card-image" loading="lazy" />
+              <h3 class="item__card-title">うるおいを逃さない</h3>
+              <p class="item__card-description">
+                肌のうるおいは、逃がしにくい状態を保つことも大切です。乾きやすい肌を、しっとりと感じられる状態へ導くために配合しています。
+              </p>
+            </div>
+          </article>
+
+          <article class="item__card item__card--middle">
+            <div class="item__card-inner">
+              <p class="item__card-subtitle">プロテオグリカン <span class="item__note-mark">※2</span></p>
+              <img src="./img/seibun2.jpg" alt="プロテオグリカン" class="item__card-image" loading="lazy" />
+              <h3 class="item__card-title">肌の調子を整える</h3>
+              <p class="item__card-description">
+                年齢や環境の変化で、肌はゆらぎやすくなります。毎日のケアの中で、肌をすこやかな状態に整えることを意識して取り入れました。
+              </p>
+            </div>
+          </article>
+
+          <article class="item__card">
+            <div class="item__card-inner">
+              <p class="item__card-subtitle">ヒアルロン酸 <span class="item__note-mark">※3</span></p>
+              <img src="./img/seibun3.jpg" alt="ヒアルロン酸" class="item__card-image" loading="lazy" />
+              <h3 class="item__card-title">しっとり感を支える</h3>
+              <p class="item__card-description">
+                うるおいは、一時的ではなく続くことが大切です。肌を包み込むような使い心地で、しっとりとした感触を支えます。
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="item__notes" role="note" aria-label="成分注釈">
+          <p class="item__notes-text">※1 セラミドNP　※2 水溶性プロテオグリカン　※3 ヒアルロン酸Na</p>
+        </div>
+
+        <div class="item__feature">
+          <div class="item__feature-badge">
+            <span class="item__feature-badge-text">うるおいをしっかり届けるために</span>
+          </div>
+
+          <div class="item__feature-box">
+            <div class="item__feature-media">
+              <img src="./img/mm7.jpeg" alt="美容液が滴る様子" class="item__feature-image" loading="lazy" />
+              <img src="./img/mm13.png" alt="One Point" class="item__onepoint item__onepoint--sp" loading="lazy" />
+            </div>
+
+            <div class="item__feature-text">
+              <h3 class="item__feature-title">たっぷりと<br />美容液を含ませています。</h3>
+              <p class="item__feature-description">
+                3つの保湿成分を配合するだけでなく、<br />
+                シートが美容液をたっぷり含み、<br />
+                肌全体を包み込むように設計しています。<br />
+                美容液はたっぷり25ml使用しており、<br />
+                うるおいを与えるだけでなく、<br />
+                心地よく感じられる時間を大切にしました。
+              </p>
+            </div>
+
+            <img src="./img/mm13.png" alt="One Point" class="item__onepoint item__onepoint--pc" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="howto">
+      <div class="howto__container">
+        <div class="howto__frame">
+          <h2 class="howto__title">使用方法</h2>
+          <p class="howto__subtitle">How to use</p>
+          <div class="howto__items">
+            <div class="howto__item">
+              <div class="howto__image-wrap">
+                <img src="./img/mm5.jpeg" alt="マスクを取り出す" class="howto__image" loading="lazy" />
+              </div>
+
+              <div class="howto__step-image">
+                <img src="./img/step1.png" alt="STEP1" loading="lazy" />
+              </div>
+
+              <p class="howto__text">
+                洗顔後の清潔なお肌にご使用ください。<br />
+                袋を開け、マスクを取り出します。<br />
+                袋の中には美容液がたっぷり含まれていますので、残さずご使用ください。
+              </p>
+            </div>
+
+            <div class="howto__item">
+              <div class="howto__image-wrap">
+                <img src="./img/mm4.jpeg" alt="顔に密着させる" class="howto__image" loading="lazy" />
+              </div>
+
+              <div class="howto__step-image">
+                <img src="./img/step2.png" alt="STEP2" loading="lazy" />
+              </div>
+
+              <p class="howto__text">
+                袋を開けてマスクを取り出し、<br />
+                目と口の位置をお顔に合わせてのせます。<br />
+                顔の中心から外側へ、やさしく押さえるようになじませると、きれいに密着します。
+              </p>
+            </div>
+
+            <div class="howto__item">
+              <div class="howto__image-wrap">
+                <img src="./img/mm6.jpeg" alt="外してなじませる" class="howto__image" loading="lazy" />
+              </div>
+
+              <div class="howto__step-image">
+                <img src="./img/step3.png" alt="STEP3" loading="lazy" />
+              </div>
+
+              <p class="howto__text">
+                5〜10分ほどおいた後マスクを優しく外します。<br />
+                お肌に残った美容液は、そのままなじませてください。<br />
+                その後は、いつも通りのお手入れを行ってください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="faq__container">
+        <h2 class="faq__title">よくある質問</h2>
+
+        <ul class="faq__list">
+          <li class="faq__item">
+            <button class="faq__question" type="button" aria-expanded="false">
+              <span class="faq__q-text">Q. 毎日使っても大丈夫ですか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="faq__answer" aria-hidden="true">
+              <div class="faq__answer-inner">
+                <p class="faq__a-text">
+                  はい、毎日ご使用いただけます。肌の状態に合わせて、乾燥が気になる日は毎日のケアに取り入れてください。
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button class="faq__question" type="button" aria-expanded="false">
+              <span class="faq__q-text">Q. 使用時間はどのくらいが目安ですか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="faq__answer" aria-hidden="true">
+              <div class="faq__answer-inner">
+                <p class="faq__a-text">5〜10分程度が目安です。肌の様子を見ながら調整してください。</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button class="faq__question" type="button" aria-expanded="false">
+              <span class="faq__q-text">Q. 袋に残った美容液は使ってもいいですか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="faq__answer" aria-hidden="true">
+              <div class="faq__answer-inner">
+                <p class="faq__a-text">首元や手の甲などにもご使用いただけます。</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="faq__item">
+            <button class="faq__question" type="button" aria-expanded="false">
+              <span class="faq__q-text">Q. 開封後はどのくらいで使い切る必要がありますか？</span>
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+
+            <div class="faq__answer" aria-hidden="true">
+              <div class="faq__answer-inner">
+                <p class="faq__a-text">衛生面の観点から、開封後はその日のうちにご使用ください。</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo">
+        <a href="#top" class="footer__logo-link">
+          <img src="./img/logo2.png" alt="Moist Maskのロゴ" class="footer__logo-img" />
+        </a>
+      </div>
+
+      <div class="footer__line"></div>
+
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li class="footer__nav-item">
+            <!-- ✅ moistmask配下にprivacy.htmlがあるなら ./privacy.html / ルート直下なら https://hifukacosme.com/privacy.html -->
+            <a href="./privacy.html" class="footer__nav-link">プライバシーポリシー</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="https://tanimurahifuka.stores.jp/tokushoho" class="footer__nav-link">特定商取引法に基づく表記</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="https://tanimurahifuka.stores.jp/inquiry" class="footer__nav-link">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- ✅ JS（/ ではなく ./ で /moistmask/js を参照） -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
